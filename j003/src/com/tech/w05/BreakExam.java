@@ -14,7 +14,7 @@ public class BreakExam {
 //		for(int i = 0; i < 10; i++) {
 //			for (int j = 0; j < 3; j++) {
 //				if(i==3) {
-//					break; //가장 가까운 반복문(for j++)을 탈출한다.
+//					break; //가장 가까운 반복문!(if말고!! for j++!!)를 탈출한다.
 //				}
 //				System.out.println("i: "+i+", j: "+j);
 //			}	
