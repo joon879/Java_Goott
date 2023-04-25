@@ -19,6 +19,7 @@ public class ArrayExam1 {
 // 		배열선언
 		int[] scores = new int[10];
 		//Index number는 0부터 시작.
+		//각 배열의 초기값은 0으로 초기화됨.
 		scores[0] = 10;
 		scores[1] = 20;
 		scores[2] = 30;
