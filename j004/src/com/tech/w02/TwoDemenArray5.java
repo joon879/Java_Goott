@@ -1,7 +1,5 @@
 package com.tech.w02;
 
-import java.util.Arrays;
-
 public class TwoDemenArray5 {
 	public static void main(String[] args) {
 		// 2차원 배열 선언
