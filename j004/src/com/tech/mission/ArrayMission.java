@@ -14,7 +14,7 @@ public class ArrayMission {
 		//배열선언
 		int[] arr = new int[10];
 		int sum = 0;
-		int avg = 0;
+		float avg = 0;
 		int max = 49;
 		int min = 101;
 		//입력받기
@@ -43,8 +43,10 @@ public class ArrayMission {
 			}
 		}
 		
+		avg = (float)sum/arr.length;
+		
 		System.out.println("합계: "+sum);
-		System.out.println("평균: "+(float)sum/arr.length);
+		System.out.println("평균: "+avg);
 		System.out.println("최대점수: "+max);
 		System.out.println("최소점수: "+min);
 		
