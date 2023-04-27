@@ -6,7 +6,6 @@ public class AverageReturnExam2 {
 		AverageReturnExam2 ar2 = new AverageReturnExam2();
 		int result = ar2.intAvg(100, 100.7f, 150, 500.5f);
 		System.out.println(result);
-		
 	}
 	
 	public int intAvg(float a, float b, float c, float d) {
@@ -19,5 +18,4 @@ public class AverageReturnExam2 {
 		
 		return (int) avg;
 	}
-
 }
