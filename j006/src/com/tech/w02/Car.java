@@ -1,6 +1,7 @@
 package com.tech.w02;
 
 public class Car {
+//	상태값들 필드로 뽑아둔다
 	String color;
 	int speed;
 	boolean power=true;
