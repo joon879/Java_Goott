@@ -7,23 +7,6 @@ public class AnimalTest {
 		// tbasic@daum.net
 		// Animal_이승준
 
-//		System.out.println("=====고양이=====");
-//		Cat cat = new Cat();
-//		cat.common();
-//		cat.catChar();
-//		System.out.println();
-//		
-//		System.out.println("=====강아지=====");
-//		Dog dog = new Dog();
-//		dog.common();
-//		dog.dogChar();
-//		System.out.println();
-//		
-//		System.out.println("=====코끼리=====");
-//		Elephant elp = new Elephant();
-//		elp.common();
-//		elp.eleChar();
-
 		Scanner scan = new Scanner(System.in);
 		Cat cat = new Cat();
 		Dog dog = new Dog();
