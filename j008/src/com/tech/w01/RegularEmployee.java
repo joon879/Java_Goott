@@ -7,9 +7,11 @@ public class RegularEmployee extends Employee{
 		super(empno, ename, pay);
 		this.bonus = bonus;
 	}
-	public double getMonthPay() {
-		
-		return 0;
+	@Override
+	public double getMonthPay() {//한달급여 계산
+		float monthpay = (pay / 12) + (bonus /12);
+		return monthpay;
 	}
+	
 	
 }
