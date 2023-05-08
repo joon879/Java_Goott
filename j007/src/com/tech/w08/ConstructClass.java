@@ -2,7 +2,7 @@ package com.tech.w08;
 
 public class ConstructClass {
 	//생성자(Constructor) 이해
-	//(리턴타입 없는 메소드 형태)
+	//(리턴타입 없는 클래스 이름과 동일한 메소드 형태)
 	
 	
 	
