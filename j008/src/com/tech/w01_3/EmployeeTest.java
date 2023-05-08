@@ -5,6 +5,7 @@ public class EmployeeTest {
 		// 사번 이름 연봉 보너스 등등 내용 전달하고 급여 산출
 		
 		//배열활용
+		//배열의 각 번지에 각각 다른 생성자로 데이터 전달, 입력
 		Employee[] emps = new Employee[4];
 		emps[0] = new RegularEmployee("E001", "홍길동", 3000, 500);
 		emps[1] = new TempEmployee("E002", "홍길순", 4000, 0);
