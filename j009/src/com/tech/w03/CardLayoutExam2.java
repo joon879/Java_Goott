@@ -51,8 +51,8 @@ public class CardLayoutExam2 extends JFrame implements ActionListener {
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		System.out.println("Ω≈»£");
-//		card.next(c);
-		card.show(c, "b");
+		card.next(c);
+//		card.show(c, "b");
 	}
 	
 }
