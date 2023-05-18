@@ -1,5 +1,6 @@
 package com.tech.w06mission;
 
+import java.awt.Font;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -14,13 +15,16 @@ import javax.swing.JTextField;
 
 public class GBBFrame extends JFrame implements ActionListener{
 
+	public static void main(String[] args) {
+		new GBBFrame();
+	}
 	private JPanel statusPanel, gbbPanel, resultPanel;
 	private JButton gawi_btn, bawi_btn, bo_btn;
 	private JTextField status_text, result_text;
-//	private String[] gbbStr = {"gawi", "bawi", "bo"};
 	private int yNum, cNum;
-	private JLabel[] labels;
-	private ImageIcon[] icon = new ImageIcon[3];
+//	private String[] gbbStr = {"gawi", "bawi", "bo"};
+//	private JLabel[] labels;
+//	private ImageIcon[] icon = new ImageIcon[3];
 	
 //	StatusPanel statusPanel = new StatusPanel();
 //	GBBPanel gbbPanel = new GBBPanel();
@@ -32,8 +36,7 @@ public class GBBFrame extends JFrame implements ActionListener{
 		setSize(600,500);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
-		labels = new JLabel[3];
-		
+				
 		
 		JPanel gbbPanel = new JPanel();
 		gawi_btn = new JButton(new ImageIcon("src/gawi.png"));
