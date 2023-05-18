@@ -50,6 +50,6 @@ public class ArrayListTest {
 		//리스트는 .size()로!! / 배열은 .length()
 		System.out.println("길이출력: "+list.size());
 		System.out.println("검색: "+list.get(1));
-		System.out.println("인덱스넘버: "+list.indexOf("Milk2"));
+		System.out.println("Milk2의 인덱스넘버: "+list.indexOf("Milk2"));
 	}
 }
