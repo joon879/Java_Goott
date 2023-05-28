@@ -242,7 +242,7 @@ public class NotePad extends JFrame implements ItemListener, ActionListener {
 	public void actionPerformed(ActionEvent e) {
 
 		String itemPressed = e.getActionCommand();
-		System.out.println("신호" + itemPressed);
+		System.out.println("신호: " + itemPressed);
 
 		// 저장
 		if (itemPressed.equals("저장(S)")) {
