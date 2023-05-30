@@ -53,6 +53,8 @@ public class ConFind extends JFrame {
 			info[index][3] = rs.getString(4);
 			index++;
 		}
+		
+		bt.txt_result.setText("\""+radio+": "+find+"\" 조건 검색 완료!!");
 
 		// JTable을 세팅.
 		JTable tab = new JTable(info, header);

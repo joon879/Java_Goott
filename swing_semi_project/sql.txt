@@ -1,0 +1,20 @@
+
+//bmpinfo 테이블 생성 쿼리
+create table bmpinfo(
+name varchar2(20),
+writer varchar2(20),
+maker varchar2(20),
+rent varchar2(15)
+);
+
+
+//전체 테이블 불러오기 쿼리
+"select * from bmpinfo";
+
+//데이터를 입력하여 인서트 시키는 쿼리
+"insert into bmpinfo values('" + ename + "', '" + ewriter + "', '" + emaker	+ "', '" + erent + "')";
+					
+//전체 테이블 중 앞뒤 상관없이 find변수의 키워드를 포함하는 문자열 조건 검색(find는 라디오버튼에 따라 도서명 or 저자)
+"select * from bmpinfo where name like '%"+find+"%'";
+
+					

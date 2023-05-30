@@ -69,6 +69,7 @@ public class AllFind extends JFrame {
 			index++;
 		}
 				
+		bt.txt_result.setText("전체 목록 조회 완료!!");
 		
 		//JTable을 세팅.
 		JTable tab = new JTable(info, header);

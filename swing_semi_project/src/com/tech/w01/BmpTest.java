@@ -22,9 +22,9 @@ public class BmpTest extends JFrame {
 
 	JTextField name, writer, maker, rent, find;
 	JButton btn_insert, btn_allfind, btn_confind;
-//	Checkbox con1, con2, con3;
 	JRadioButton con1, con2;
 	String radio;
+	JLabel txt_result;
 	ResultSet rs;
 	Statement stmt;
 
@@ -40,7 +40,7 @@ public class BmpTest extends JFrame {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setLayout(new GridLayout(6, 6, 5, 5));
 
-		//보더 레이아웃 south
+		//보더 레이아웃 south에 전체 시트 추가??
 		JPanel panel1 = new JPanel();
 		panel1.setLayout(new GridLayout(0, 6));
 		JPanel panel2 = new JPanel();
@@ -79,6 +79,8 @@ public class BmpTest extends JFrame {
 
 				String sql = "insert into bmpinfo values('" + ename + "', '" + ewriter + "', '" + emaker
 						+ "', '" + erent + "')";
+				txt_result.setText(ename+"추가 완료!!");
+				
 
 				System.out.println(sql);
 				try {
@@ -103,7 +105,7 @@ public class BmpTest extends JFrame {
 				
 				try {
 					new AllFind();
-//					dispose();
+					dispose();
 				} catch (SQLException e1) {
 					System.out.println("새창 실패!!");
 				}
@@ -173,7 +175,7 @@ public class BmpTest extends JFrame {
 		
 
 		panel6.add(new JLabel("결과 메시지"));
-		panel6.add(new JLabel("검색어: XXXXX 검색완료"));
+		panel6.add(txt_result = new JLabel());
 
 
 
